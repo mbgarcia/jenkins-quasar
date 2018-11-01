@@ -9,3 +9,7 @@ O arquivo Dockerfile faz o build de uma imagem contendo:
 . VueJS
 
 . Quasar
+
+## O docker compose sobe containers Jenkins e Gitlab
+
+O usuario default do GitLab é **root**
