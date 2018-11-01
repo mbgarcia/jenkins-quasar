@@ -3,6 +3,9 @@
 O arquivo Dockerfile faz o build de uma imagem contendo:
 
 . Jenkins
+
 . NodeJS
+
 . VueJS
+
 . Quasar
