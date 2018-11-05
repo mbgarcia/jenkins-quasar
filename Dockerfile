@@ -28,12 +28,6 @@ RUN npm install -g quasar-cli
 
 RUN apt-get -y install openjdk-8-jdk
 
-RUN wget http://apache.claz.org/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz
-
-RUN tar -zxvf apache-maven-3.5.2-bin.tar.gz
-
-RUN mv apache-maven-3.5.2 /opt/maven
-
 FROM maven:3.5-jdk-8-alpine
 
 USER jenkins
