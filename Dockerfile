@@ -26,6 +26,8 @@ RUN vue --version
 
 RUN npm install -g quasar-cli
 
+RUN apt-get -y install openjdk-8-jdk
+
 USER jenkins
 
 #docker build -t jenkins/vue-quasar .
