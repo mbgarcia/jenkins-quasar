@@ -30,6 +30,8 @@ RUN apt-get -y install openjdk-8-jdk
 
 FROM maven:3.5-jdk-8-alpine
 
+RUN mvn --version
+
 USER jenkins
 
 #docker build -t jenkins/vue-quasar .
